@@ -1,6 +1,11 @@
+// Joshua Mckellop
+// M4HW1
+// June 15, 2025
+// This program allows a salesperson to enter their name, widget sales, widgets returned, and generate their commission and salary for the month.
+
 import java.util.Scanner;
 
-public class M4HW1_Joshua_Mckellop {
+public class M4HW1 {
     public static void main(String[] args) {
         // Constants
         final double WIDGET_PRICE = 4.79;

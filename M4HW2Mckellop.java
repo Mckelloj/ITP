@@ -5,8 +5,10 @@
 
 import java.util.Scanner;
 
-public class M4HW2_Joshua_Mckellop {
-    public static void main(String[] args) {
+public class M4HW2Mckellop 
+{
+    public static void main(String[] args) 
+    {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Are you a US citizen? ");

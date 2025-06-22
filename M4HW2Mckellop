@@ -1,0 +1,31 @@
+START
+Prompt user: "Are you a US citizen?"
+Read input as isCitizen
+
+IF isCitizen is not "yes" (case-insensitive)
+    PRINT "You cannot vote because you are not a US citizen."
+ELSE
+    Prompt user: "Have you lived in your county for at least 30 days?"
+    Read input as isResident
+
+    IF isResident is not "yes" (case-insensitive)
+        PRINT "You cannot vote because you have not lived in your county for at least 30 days."
+    ELSE
+        Prompt user: "Will you be at least 18 years old by the general election?"
+        Read input as isEighteen
+
+        IF isEighteen is not "yes" (case-insensitive)
+            PRINT "You cannot vote because you are not at least 18 years old by the date of the general election."
+        ELSE
+            Prompt user: "Are you currently serving a felony sentence or on probation?"
+            Read input as isFelon
+
+            IF isFelon is "yes" (case-insensitive)
+                PRINT "You cannot vote because you are serving a felony sentence or on probation."
+            ELSE
+                PRINT "You are eligible to vote in North Carolina."
+            ENDIF
+        ENDIF
+    ENDIF
+ENDIF
+END

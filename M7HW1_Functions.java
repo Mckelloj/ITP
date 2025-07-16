@@ -72,7 +72,7 @@ public class M7HW1_Functions
     
     public static double calWidSalesAmt(double totalSold)
     {
-        final double WIDGET_PRICE = 4.79; // You can adjust this value if needed
+        final double WIDGET_PRICE = 4.79; 
         double salesAmount = totalSold * WIDGET_PRICE;
         return salesAmount;
     }
